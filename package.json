@@ -1,6 +1,6 @@
 {
     "name": "hd-scripts",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "My personal config and scripts for web projects",
     "repository": "hugomrdias/hd-scripts",
     "author": "Hugo Dias <hugomrdias@gmail.com> (hugodias.me)",
@@ -16,29 +16,33 @@
         "validate": "run-p lint test",
         "precommit": "yarn validate",
         "version": "yarn changelog && git add CHANGELOG.md",
-        "changelog":
-            "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-        "cov":
-            "yarn test && nyc report --reporter=html && hs coverage -s -o -c-1",
-        "cov:report":
-            "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+        "cov": "yarn test && nyc report --reporter=html && hs coverage -s -o -c-1",
+        "cov:report": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
     },
-    "files": ["index.js", "cli.js"],
-    "keywords": ["cli-app", "cli", ""],
+    "files": [
+        "index.js",
+        "cli.js"
+    ],
+    "keywords": [
+        "cli-app",
+        "cli",
+        ""
+    ],
     "dependencies": {
         "meow": "^3.7.0"
     },
     "devDependencies": {
         "ava": "^0.20.0",
         "codecov": "^2.3.0",
-        "http-serve": "^1.0.1",
-        "nyc": "^11.0.0",
+        "conventional-changelog-cli": "^1.3.3",
         "eslint": "^4.7.1",
         "eslint-config-halo": "^2.3.3",
+        "http-serve": "^1.0.1",
         "husky": "^0.14.3",
+        "np": "^2.16.0",
         "npm-run-all": "^4.1.1",
-        "conventional-changelog-cli": "^1.3.3",
-        "np": "^2.16.0"
+        "nyc": "^11.0.0"
     },
     "eslintConfig": {
         "extends": "./eslint/plugins.js",
