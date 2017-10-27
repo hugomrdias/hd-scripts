@@ -1,3 +1,13 @@
+<a name="0.0.7"></a>
+## [0.0.7](https://github.com/hugomrdias/hd-scripts/compare/v0.0.6...v0.0.7) (2017-10-27)
+
+
+### Bug Fixes
+
+* fix files ([ae73160](https://github.com/hugomrdias/hd-scripts/commit/ae73160))
+
+
+
 <a name="0.0.6"></a>
 ## [0.0.6](https://github.com/hugomrdias/hd-scripts/compare/v0.0.1...v0.0.6) (2017-10-27)
 
