@@ -1,3 +1,13 @@
+<a name="0.0.10"></a>
+## [0.0.10](https://github.com/hugomrdias/hd-scripts/compare/v0.0.9...v0.0.10) (2017-10-27)
+
+
+### Features
+
+* add babelrc ([7c7e3cf](https://github.com/hugomrdias/hd-scripts/commit/7c7e3cf))
+
+
+
 <a name="0.0.9"></a>
 ## [0.0.9](https://github.com/hugomrdias/hd-scripts/compare/v0.0.8...v0.0.9) (2017-10-27)
 
