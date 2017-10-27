@@ -1,3 +1,13 @@
+<a name="0.0.9"></a>
+## [0.0.9](https://github.com/hugomrdias/hd-scripts/compare/v0.0.8...v0.0.9) (2017-10-27)
+
+
+### Features
+
+* add babel-eslint ([4a44b16](https://github.com/hugomrdias/hd-scripts/commit/4a44b16))
+
+
+
 <a name="0.0.8"></a>
 ## [0.0.8](https://github.com/hugomrdias/hd-scripts/compare/v0.0.7...v0.0.8) (2017-10-27)
 
