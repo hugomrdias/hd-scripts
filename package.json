@@ -1,6 +1,6 @@
 {
     "name": "hd-scripts",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "My personal config and scripts for web projects",
     "repository": "hugomrdias/hd-scripts",
     "author": "Hugo Dias <hugomrdias@gmail.com> (hugodias.me)",
@@ -16,19 +16,28 @@
         "validate": "run-p lint test",
         "precommit": "yarn validate",
         "version": "yarn changelog && git add changelog.md",
-        "changelog":
-            "conventional-changelog -p angular -i changelog.md -s -r 0",
-        "cov":
-            "yarn test && nyc report --reporter=html && hs coverage -s -o -c-1",
-        "cov:report":
-            "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+        "changelog": "conventional-changelog -p angular -i changelog.md -s -r 0",
+        "cov": "yarn test && nyc report --reporter=html && hs coverage -s -o -c-1",
+        "cov:report": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
     },
-    "files": ["index.js", "cli.js"],
-    "keywords": ["cli-app", "cli", ""],
+    "files": [
+        "index.js",
+        "cli.js"
+    ],
+    "keywords": [
+        "cli-app",
+        "cli",
+        ""
+    ],
     "dependencies": {
         "concurrently": "3.5.0",
         "cross-spawn": "5.1.0",
         "eslint": "^4.7.1",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-no-use-extend-native": "^0.3.12",
+        "eslint-plugin-promise": "^3.6.0",
+        "eslint-plugin-react": "^7.4.0",
+        "eslint-plugin-unicorn": "^2.1.2",
         "meow": "^3.7.0",
         "prettier": "1.7.4",
         "prettier-eslint-cli": "4.4.0",
