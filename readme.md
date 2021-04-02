@@ -2,23 +2,20 @@
 
 > My personal config and scripts for web projects
 
-
 ## Install
 
 ```
 $ npm install hd-scripts
 ```
 
-
 ## Usage
 
 ```js
-const hdScripts = require('hd-scripts');
+const hdScripts = require('hd-scripts')
 
-hdScripts('unicorns');
+hdScripts('unicorns')
 //=> 'unicorns & rainbows'
 ```
-
 
 ## API
 
@@ -38,7 +35,6 @@ Type: `boolean`<br>
 Default: `false`
 
 Lorem ipsum.
-
 
 ## CLI
 
@@ -61,7 +57,6 @@ $ hd-scripts --help
     $ hd-scripts ponies
     ponies & rainbows
 ```
-
 
 ## License
 

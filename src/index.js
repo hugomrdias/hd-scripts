@@ -1,11 +1,11 @@
-'use strict';
+'use strict'
 
 module.exports = (input, opts) => {
-    if (typeof input !== 'string') {
-        throw new TypeError(`Expected a string, got ${typeof input}`);
-    }
+  if (typeof input !== 'string') {
+    throw new TypeError(`Expected a string, got ${typeof input}`)
+  }
 
-    opts = opts || {};
+  opts = opts || {}
 
-    return input + ' & ' + (opts.postfix || 'rainbows');
-};
+  return input + ' & ' + (opts.postfix || 'rainbows')
+}
