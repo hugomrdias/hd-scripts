@@ -1,7 +1,6 @@
-# hd-scripts [![NPM Version](https://img.shields.io/npm/v/hd-scripts.svg)](https://www.npmjs.com/package/hd-scripts) [![NPM Downloads](https://img.shields.io/npm/dt/hd-scripts.svg)](https://www.npmjs.com/package/hd-scripts) [![NPM License](https://img.shields.io/npm/l/hd-scripts.svg)](https://www.npmjs.com/package/hd-scripts) [![Build Status](https://travis-ci.org/hugomrdias/hd-scripts.svg?branch=master)](https://travis-ci.org/hugomrdias/hd-scripts) [![codecov](https://codecov.io/gh/hugomrdias/hd-scripts/badge.svg?branch=master)](https://codecov.io/gh/hugomrdias/hd-scripts?branch=master)
+# hd-scripts [![NPM Version](https://img.shields.io/npm/v/hd-scripts.svg)](https://www.npmjs.com/package/hd-scripts) [![NPM License](https://img.shields.io/npm/l/hd-scripts.svg)](https://www.npmjs.com/package/hd-scripts) [![tests](https://github.com/hugomrdias/hd-scripts/actions/workflows/main.yml/badge.svg)](https://github.com/hugomrdias/hd-scripts/actions/workflows/main.yml)
 
 > My personal config and scripts for web projects
-
 
 ## Install
 
@@ -9,59 +8,52 @@
 $ npm install hd-scripts
 ```
 
-
 ## Usage
 
-```js
-const hdScripts = require('hd-scripts');
+`package.json`
 
-hdScripts('unicorns');
-//=> 'unicorns & rainbows'
-```
-
-
-## API
-
-### hdScripts(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
-
-## CLI
-
-```
-$ npm install --global hd-scripts
-```
+```json
+"main": "src/index.js",
+"types": "dist/src/index.d.ts",
+"files": [
+  "dist/src",
+  "src",
+  "index.js",
+  "cli.js"
+],
+"scripts": {
+  "lint": "eslint **/*.js && prettier --check . --ignore-path .gitignore && tsc"
+},
+"simple-git-hooks": {
+  "pre-commit": "npx lint-staged"
+},
+"lint-staged": {
+  "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
+  "*.js": "eslint --fix"
+},
+"eslintConfig": {
+  "extends": "./node_modules/hd-scripts/eslint/index.js"
+},
+"eslintIgnore": [
+  "dist"
+],
+"prettier": "hd-scripts/prettier.config.js"
 
 ```
-$ hd-scripts --help
 
-  Usage
-    hd-scripts [input]
+`tsconfig.json`
 
-  Options
-    --foo  Lorem ipsum [Default: false]
-
-  Examples
-    $ hd-scripts
-    unicorns & rainbows
-    $ hd-scripts ponies
-    ponies & rainbows
+```json
+{
+  "extends": "hd-scripts/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "composite": false,
+    "incremental": false
+  },
+  "include": ["src", "test.js", "cli.js", "package.json"]
+}
 ```
-
 
 ## License
 
