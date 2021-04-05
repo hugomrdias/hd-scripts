@@ -10,8 +10,7 @@
     "node": ">=14"
   },
   "scripts": {
-    "validate": "eslint **/*.js && prettier --check .",
-    "format": "prettier --write '**/*.{js,jsx,ts,tsx,md,html,css,yml,json}' --ignore-path .gitignore"
+    "lint": "eslint **/*.js && prettier --check . --ignore-path .gitignore"
   },
   "files": [
     "src",
@@ -44,11 +43,11 @@
   },
   "devDependencies": {},
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged",
-    "pre-push": "yarn lint"
+    "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write"
+    "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
+    "*.js": "eslint --fix"
   },
   "eslintConfig": {
     "extends": "./eslint/index.js"
