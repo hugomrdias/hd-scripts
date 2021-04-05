@@ -22,13 +22,13 @@ $ npm install hd-scripts
   "cli.js"
 ],
 "scripts": {
-  "lint": "eslint **/*.js && prettier --check . --ignore-path .gitignore && tsc"
+  "lint": "eslint **/*.js && prettier --check **/*.{js,ts,yml,json} --ignore-path .gitignore && tsc"
 },
 "simple-git-hooks": {
   "pre-commit": "npx lint-staged"
 },
 "lint-staged": {
-  "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
+  "*.{js,ts,md,yml,json}": "prettier --write",
   "*.js": "eslint --fix"
 },
 "eslintConfig": {
