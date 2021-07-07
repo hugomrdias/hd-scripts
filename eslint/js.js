@@ -1,16 +1,16 @@
 'use strict'
 
 module.exports = {
-  extends: ['standard', 'prettier'],
+  extends: ['standard', 'plugin:unicorn/recommended', 'prettier'],
   parserOptions: {
     sourceType: 'script',
   },
   env: {
-    es2020: true,
+    es2021: true,
     browser: true,
     node: true,
   },
-  plugins: ['no-only-tests', 'jsdoc'],
+  plugins: ['no-only-tests', 'jsdoc', 'unicorn'],
   rules: {
     strict: ['error', 'safe'],
     curly: 'error',
@@ -74,6 +74,10 @@ module.exports = {
     // should revisit once following issue is fixed:
     // https://github.com/jsdoctypeparser/jsdoctypeparser/issues/50
     'jsdoc/valid-types': 'off',
+    'unicorn/prefer-node-protocol': 'off',
+    'unicorn/prevent-abbreviations': 'off',
+    'unicorn/prefer-module': 'off',
+    'import/extensions': ['error', 'ignorePackages'],
   },
   settings: {
     jsdoc: {
