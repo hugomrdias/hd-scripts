@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://www.github.com/hugomrdias/hd-scripts/compare/v0.1.1...v1.0.0) (2021-07-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* new plugin
+
+### Features
+
+* add unicorn ([07310d4](https://www.github.com/hugomrdias/hd-scripts/commit/07310d4aaa69f2af571cb74174ca210e2eb38618))
+
 ### [0.1.1](https://www.github.com/hugomrdias/hd-scripts/compare/v0.1.0...v0.1.1) (2021-04-05)
 
 
