@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://www.github.com/hugomrdias/hd-scripts/compare/v1.1.0...v1.1.1) (2022-02-17)
+
+
+### Bug Fixes
+
+* update eslint config to match unicorn ([d2da324](https://www.github.com/hugomrdias/hd-scripts/commit/d2da32401bfab9de5275a8e0fa3d5e34f522860a))
+
 ## [1.1.0](https://www.github.com/hugomrdias/hd-scripts/compare/v1.0.0...v1.1.0) (2022-02-17)
 
 
