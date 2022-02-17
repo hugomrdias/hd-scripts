@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://www.github.com/hugomrdias/hd-scripts/compare/v1.0.0...v1.1.0) (2022-02-17)
+
+
+### Features
+
+* update deps ([25ffadb](https://www.github.com/hugomrdias/hd-scripts/commit/25ffadb4d5d3065184d5e39b143f9d27f5276de2))
+
 ## [1.0.0](https://www.github.com/hugomrdias/hd-scripts/compare/v0.1.1...v1.0.0) (2021-07-07)
 
 
