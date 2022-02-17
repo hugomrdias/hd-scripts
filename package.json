@@ -54,6 +54,9 @@
     "extends": "./eslint/index.js",
     "parserOptions": {
       "sourceType": "script"
+    },
+    "rules": {
+      "unicorn/prefer-module": "off"
     }
   }
 }

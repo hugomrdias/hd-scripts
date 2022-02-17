@@ -1,6 +1,9 @@
 'use strict'
 
-module.exports = (input, opts) => {
+module.exports = (
+  /** @type {string} */ input,
+  /** @type {{ postfix?: any; }} */ opts
+) => {
   if (typeof input !== 'string') {
     throw new TypeError(`Expected a string, got ${typeof input}`)
   }

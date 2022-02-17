@@ -4,9 +4,10 @@ module.exports = {
   extends: ['standard', 'plugin:unicorn/recommended', 'prettier'],
   parserOptions: {
     sourceType: 'module',
+    ecmaVersion: 'latest',
   },
   env: {
-    es2021: true,
+    es2022: true,
     browser: true,
     node: true,
   },
@@ -76,7 +77,6 @@ module.exports = {
     'jsdoc/valid-types': 'off',
     'unicorn/prefer-node-protocol': 'off',
     'unicorn/prevent-abbreviations': 'off',
-    'unicorn/prefer-module': 'off',
     'import/extensions': ['error', 'ignorePackages'],
   },
   settings: {
