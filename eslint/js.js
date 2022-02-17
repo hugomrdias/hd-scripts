@@ -3,7 +3,7 @@
 module.exports = {
   extends: ['standard', 'plugin:unicorn/recommended', 'prettier'],
   parserOptions: {
-    sourceType: 'script',
+    sourceType: 'module',
   },
   env: {
     es2021: true,
