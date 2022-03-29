@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.2](https://www.github.com/hugomrdias/hd-scripts/compare/v1.1.1...v1.1.2) (2022-03-29)
+
+
+### Bug Fixes
+
+* update deps ([e840881](https://www.github.com/hugomrdias/hd-scripts/commit/e8408810c8e4f98e8fc8c7bdfb2e09f976d2d8bd))
+
 ### [1.1.1](https://www.github.com/hugomrdias/hd-scripts/compare/v1.1.0...v1.1.1) (2022-02-17)
 
 
