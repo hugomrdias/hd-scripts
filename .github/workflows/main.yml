@@ -13,8 +13,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: bahmutov/npm-install@v1
-      - run: yarn run lint
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.32.x
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: 'pnpm'
+      - run: pnpm install
+      - run: pnpm run lint
   release:
     runs-on: ubuntu-latest
     needs: test
@@ -27,14 +34,17 @@ jobs:
           release-type: node
       - uses: actions/checkout@v2
         if: ${{ steps.release.outputs.release_created }}
-      - uses: actions/setup-node@v2
+      - uses: pnpm/action-setup@v2.0.1
+        if: ${{ steps.release.outputs.release_created }}
         with:
-          node-version: 14
+          version: 6.32.x
+      - uses: actions/setup-node@v2
+        if: ${{ steps.release.outputs.release_created }}
+        with:
+          node-version: 16
           registry-url: 'https://registry.npmjs.org'
-        if: ${{ steps.release.outputs.release_created }}
-      - uses: bahmutov/npm-install@v1
-        if: ${{ steps.release.outputs.release_created }}
+          cache: 'pnpm'
       - run: npm publish
+        if: ${{ steps.release.outputs.release_created }}
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-        if: ${{ steps.release.outputs.release_created }}
