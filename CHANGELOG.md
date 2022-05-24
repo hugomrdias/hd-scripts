@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.0.1](https://www.github.com/hugomrdias/hd-scripts/compare/v2.0.0...v2.0.1) (2022-05-24)
+
+
+### Bug Fixes
+
+* eslint ecmaVersion 2022 ([2efd8bd](https://www.github.com/hugomrdias/hd-scripts/commit/2efd8bd65acca1d1fbcc038f4e6d5f649f794348))
+
 ## [2.0.0](https://www.github.com/hugomrdias/hd-scripts/compare/v1.1.2...v2.0.0) (2022-05-24)
 
 
