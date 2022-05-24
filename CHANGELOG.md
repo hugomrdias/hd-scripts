@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.0](https://www.github.com/hugomrdias/hd-scripts/compare/v1.1.2...v2.0.0) (2022-05-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* update deps
+* bump deps to support eslint 8
+
+### Features
+
+* bump deps to support eslint 8 ([6fb98be](https://www.github.com/hugomrdias/hd-scripts/commit/6fb98bed4de45344d494ed593e79a8a67517a6f3))
+* update deps ([1f112c2](https://www.github.com/hugomrdias/hd-scripts/commit/1f112c24b2d610ee86069051862fc3bf49494d3d))
+
 ### [1.1.2](https://www.github.com/hugomrdias/hd-scripts/compare/v1.1.1...v1.1.2) (2022-03-29)
 
 
