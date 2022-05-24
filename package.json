@@ -24,23 +24,22 @@
     ""
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.20.0",
-    "@typescript-eslint/parser": "^5.0.0",
-    "eslint": "^8.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-config-standard-with-typescript": "github:standard/eslint-config-standard-with-typescript#master",
     "eslint-plugin-etc": "^2.0.2",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsdoc": "^39.2.7",
-    "eslint-plugin-n": "^15.1.0",
+    "eslint-plugin-jsdoc": "^39.3.0",
+    "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-no-only-tests": "^2.6.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-unicorn": "^42.0.0",
-    "lint-staged": "^12.4.0",
+    "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
     "simple-git-hooks": "^2.7.0",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.4"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
@@ -57,5 +56,8 @@
     "rules": {
       "unicorn/prefer-module": "off"
     }
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.2"
   }
 }

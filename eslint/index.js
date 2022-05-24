@@ -7,7 +7,7 @@ module.exports = {
       extends: './js',
     },
     {
-      files: ['*.ts'],
+      files: ['*.ts', '*.tsx'],
       extends: './ts',
     },
   ],
