@@ -4,7 +4,7 @@ module.exports = {
   extends: ['standard', 'plugin:unicorn/recommended', 'prettier'],
   parserOptions: {
     sourceType: 'module',
-    ecmaVersion: 'latest',
+    ecmaVersion: 2022,
   },
   env: {
     es2022: true,
