@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  extends: ['standard', 'plugin:unicorn/recommended', 'prettier'],
+  extends: ['standard', 'plugin:unicorn/recommended'],
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 2022,
