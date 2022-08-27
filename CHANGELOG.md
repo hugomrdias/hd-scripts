@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://www.github.com/hugomrdias/hd-scripts/compare/v2.0.1...v2.1.0) (2022-08-27)
+
+
+### Features
+
+* bring back standard-with-typescript and fix prettier ([66cc25d](https://www.github.com/hugomrdias/hd-scripts/commit/66cc25d20212aacc734b741d21f889b812c19ff7))
+
 ### [2.0.1](https://www.github.com/hugomrdias/hd-scripts/compare/v2.0.0...v2.0.1) (2022-05-24)
 
 
