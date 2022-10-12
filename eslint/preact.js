@@ -3,7 +3,7 @@
 module.exports = {
   overrides: [
     {
-      files: ['*.js', '*.mjs', '*.jsx'],
+      files: ['*.js', '*.jsx', '*.mjs'],
       extends: ['./js', './_preact.js', 'prettier'],
     },
     {
