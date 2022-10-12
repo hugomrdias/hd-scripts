@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.1](https://www.github.com/hugomrdias/hd-scripts/compare/v3.0.0...v3.0.1) (2022-10-12)
+
+
+### Bug Fixes
+
+* support jsx ([e4c7c97](https://www.github.com/hugomrdias/hd-scripts/commit/e4c7c97b174f1d53f97cea8febdb27eb1e29488b))
+
 ## [3.0.0](https://www.github.com/hugomrdias/hd-scripts/compare/v2.1.0...v3.0.0) (2022-10-12)
 
 
