@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.0.0](https://www.github.com/hugomrdias/hd-scripts/compare/v2.1.0...v3.0.0) (2022-10-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* add support for preact eslint config and update deps
+* upgrade deps and use standard ts
+
+### Features
+
+* add support for preact eslint config and update deps ([53b1e36](https://www.github.com/hugomrdias/hd-scripts/commit/53b1e366aa865daf004d327091265ba8d02b976f))
+* upgrade deps and use standard ts ([8b0248a](https://www.github.com/hugomrdias/hd-scripts/commit/8b0248a540461d0246980ea9168f45b391747cd2))
+
 ## [2.1.0](https://www.github.com/hugomrdias/hd-scripts/compare/v2.0.1...v2.1.0) (2022-08-27)
 
 
