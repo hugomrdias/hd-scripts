@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.2](https://github.com/hugomrdias/hd-scripts/compare/v3.0.1...v3.0.2) (2022-10-12)
+
+
+### Bug Fixes
+
+* update more ci stuff ([51eb52f](https://github.com/hugomrdias/hd-scripts/commit/51eb52f647c3e087247e720a2dcb26ab4355b8b5))
+
 ### [3.0.1](https://www.github.com/hugomrdias/hd-scripts/compare/v3.0.0...v3.0.1) (2022-10-12)
 
 
