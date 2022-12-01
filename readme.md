@@ -32,7 +32,13 @@ $ npm install hd-scripts
   "*.js": "eslint --fix"
 },
 "eslintConfig": {
-  "extends": "./node_modules/hd-scripts/eslint/index.js"
+  "extends": "./node_modules/hd-scripts/eslint/index.js",
+  "ignorePatterns": [
+    "node_modules",
+    "coverage",
+    "dist",
+    "docs"
+  ]
 },
 "eslintIgnore": [
   "dist"
