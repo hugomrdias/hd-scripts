@@ -40,9 +40,6 @@ $ npm install hd-scripts
     "docs"
   ]
 },
-"eslintIgnore": [
-  "dist"
-],
 "prettier": "hd-scripts/prettier.config.js"
 
 ```
