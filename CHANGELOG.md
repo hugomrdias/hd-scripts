@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/hugomrdias/hd-scripts/compare/v3.0.2...v4.0.0) (2023-01-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* big deps update
+
+### Features
+
+* big deps update ([24e7583](https://github.com/hugomrdias/hd-scripts/commit/24e7583270ef57b2bcea2d51764d1bb0a48a4e91))
+
 ## [3.0.2](https://github.com/hugomrdias/hd-scripts/compare/v3.0.1...v3.0.2) (2022-10-12)
 
 
