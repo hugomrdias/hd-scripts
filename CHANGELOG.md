@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.0](https://github.com/hugomrdias/hd-scripts/compare/v4.0.0...v4.1.0) (2023-02-01)
+
+
+### Features
+
+* rm `'jsdoc/no-undefined-types': 'off'` for js ([#32](https://github.com/hugomrdias/hd-scripts/issues/32)) ([abb640e](https://github.com/hugomrdias/hd-scripts/commit/abb640e1a50cf105af3f0cc32d8b32b9d7fdcb68))
+
 ## [4.0.0](https://github.com/hugomrdias/hd-scripts/compare/v3.0.2...v4.0.0) (2023-01-18)
 
 
