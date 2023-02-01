@@ -50,11 +50,6 @@ module.exports = {
     'jsdoc/match-description': 'off',
     'jsdoc/newline-after-description': 'error',
     'jsdoc/no-types': 'off',
-    // Note: no-undefined-types rule causes to many false positives:
-    // https://github.com/gajus/eslint-plugin-jsdoc/issues/559
-    // And it is also unaware of many built in types
-    // https://github.com/gajus/eslint-plugin-jsdoc/issues/280
-    'jsdoc/no-undefined-types': 'off',
     'jsdoc/require-returns-type': 'off',
     'jsdoc/require-description': 'off',
     'jsdoc/require-description-complete-sentence': 'off',
