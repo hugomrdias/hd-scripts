@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install hd-scripts
+```bash
+pnpm install hd-scripts
 ```
 
 ## Usage
