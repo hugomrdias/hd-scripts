@@ -1,5 +1,16 @@
 # Changelog
 
+## [6.0.0](https://github.com/hugomrdias/hd-scripts/compare/v5.0.0...v6.0.0) (2023-04-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* update typescript and other deps
+
+### Features
+
+* update typescript and other deps ([e04fb42](https://github.com/hugomrdias/hd-scripts/commit/e04fb4260c6042172e6010fc9b6392915672b44d))
+
 ## [5.0.0](https://github.com/hugomrdias/hd-scripts/compare/v4.1.0...v5.0.0) (2023-03-08)
 
 
