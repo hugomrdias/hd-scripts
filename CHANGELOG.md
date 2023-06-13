@@ -1,5 +1,16 @@
 # Changelog
 
+## [7.0.0](https://github.com/hugomrdias/hd-scripts/compare/v6.0.0...v7.0.0) (2023-06-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* update pkgs and jsdoc ts
+
+### Features
+
+* update pkgs and jsdoc ts ([9b727a6](https://github.com/hugomrdias/hd-scripts/commit/9b727a6e1c7a5f503038c40c0ddf92fa4641a548))
+
 ## [6.0.0](https://github.com/hugomrdias/hd-scripts/compare/v5.0.0...v6.0.0) (2023-04-06)
 
 
