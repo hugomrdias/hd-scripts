@@ -41,6 +41,7 @@ module.exports = {
     'jsdoc/check-indentation': 'error',
     'jsdoc/check-param-names': 'error',
     'jsdoc/check-syntax': 'error',
+    'jsdoc/tag-lines': ['warn', 'any', { startLines: 1 }],
     'jsdoc/check-tag-names': [
       'error',
       { definedTags: ['internal', 'packageDocumentation'] },
@@ -48,7 +49,6 @@ module.exports = {
     'jsdoc/check-types': 'error',
     'jsdoc/implements-on-classes': 'error',
     'jsdoc/match-description': 'off',
-    'jsdoc/newline-after-description': 'error',
     'jsdoc/no-types': 'off',
     'jsdoc/require-returns-type': 'off',
     'jsdoc/require-description': 'off',

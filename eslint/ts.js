@@ -7,7 +7,11 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/parser/README.md#parseroptionsproject
     project: './tsconfig.json',
   },
-  extends: ['./js', 'standard-with-typescript'],
+  extends: [
+    './js',
+    'plugin:jsdoc/recommended-typescript',
+    'standard-with-typescript',
+  ],
   plugins: ['etc'],
   //   rules: {
   //     'no-use-before-define': 'off', // Types often are recursive & no use before define is too restrctive
