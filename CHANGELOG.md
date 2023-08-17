@@ -1,5 +1,16 @@
 # Changelog
 
+## [8.0.0](https://github.com/hugomrdias/hd-scripts/compare/v7.0.0...v8.0.0) (2023-08-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* update deps
+
+### Features
+
+* update deps ([01bab26](https://github.com/hugomrdias/hd-scripts/commit/01bab26bbc6d22e4a7036632411aa54782fe1533))
+
 ## [7.0.0](https://github.com/hugomrdias/hd-scripts/compare/v6.0.0...v7.0.0) (2023-06-13)
 
 
