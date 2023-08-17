@@ -12,10 +12,4 @@ module.exports = {
     'plugin:jsdoc/recommended-typescript',
     'standard-with-typescript',
   ],
-  plugins: ['etc'],
-  //   rules: {
-  //     'no-use-before-define': 'off', // Types often are recursive & no use before define is too restrctive
-  //     'etc/prefer-interface': 'error', // https://ncjamieson.com/prefer-interfaces/
-  //     '@typescript-eslint/prefer-function-type': 'off', // conflicts with 'etc/prefer-interface'
-  //   },
 }

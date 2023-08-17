@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       files: ['*.ts', '*.tsx'],
-      extends: ['./ts', 'prettier'],
+      extends: ['./ts', './_preact.js', 'prettier'],
     },
   ],
 }
