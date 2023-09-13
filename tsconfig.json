@@ -19,8 +19,8 @@
     "removeComments": false,
     "importsNotUsedAsValues": "remove",
     // Modules
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "module": "ESNext", // "NodeNext"
+    "moduleResolution": "Bundler", // "NodeNext"
     "moduleDetection": "force",
     "isolatedModules": true,
     "esModuleInterop": true,

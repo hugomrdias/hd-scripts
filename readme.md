@@ -51,12 +51,27 @@ pnpm install hd-scripts
   "extends": "hd-scripts/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
-    "composite": false,
-    "incremental": false
+    "emitDeclarationOnly": true
   },
   "include": ["src", "test.js", "cli.js", "package.json"]
 }
 ```
+
+For typescript code bases:
+
+```json
+{
+  "extends": "hd-scripts/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
+  },
+  "include": ["src", "test.js", "cli.js", "package.json"]
+}
+```
+
+In monorepos you can install `hd-scripts` only in the root and extends the root `tsconfig.json` in the packages.
 
 ## License
 
