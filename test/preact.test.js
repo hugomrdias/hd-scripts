@@ -28,7 +28,7 @@ describe('mjs', function () {
 
 describe('preact', function () {
   it('support mjs', async () => {
-    const report = await lint(p('preact/invalid.mjs'))
+    const report = await lint(p('preact/invalid.jsx'))
     assert.ok(report.errorCount === 2)
     assert.ok(report.messages[0].ruleId === 'react/jsx-no-target-blank')
   })
