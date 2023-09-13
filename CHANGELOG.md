@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.1.2](https://github.com/hugomrdias/hd-scripts/compare/v8.1.1...v8.1.2) (2023-09-13)
+
+
+### Bug Fixes
+
+* find the nearest tsconfig.json ([7bcf8ad](https://github.com/hugomrdias/hd-scripts/commit/7bcf8ad70bb6499dd8e30645698d00a6f261b18a))
+
 ## [8.1.1](https://github.com/hugomrdias/hd-scripts/compare/v8.1.0...v8.1.1) (2023-09-13)
 
 
