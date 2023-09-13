@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.1.0](https://github.com/hugomrdias/hd-scripts/compare/v8.0.0...v8.1.0) (2023-09-13)
+
+
+### Features
+
+* update deps and tweaks extensions ([c03d549](https://github.com/hugomrdias/hd-scripts/commit/c03d54958e885a9ccab9c4fd2bbc9b82befe4125))
+
 ## [8.0.0](https://github.com/hugomrdias/hd-scripts/compare/v7.0.0...v8.0.0) (2023-08-17)
 
 
