@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.1.1](https://github.com/hugomrdias/hd-scripts/compare/v8.1.0...v8.1.1) (2023-09-13)
+
+
+### Bug Fixes
+
+* release ([344b9d4](https://github.com/hugomrdias/hd-scripts/commit/344b9d4d6030b97f0996f2aaf7068ae780b7245c))
+
 ## [8.1.0](https://github.com/hugomrdias/hd-scripts/compare/v8.0.0...v8.1.0) (2023-09-13)
 
 
