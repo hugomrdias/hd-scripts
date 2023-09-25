@@ -3,6 +3,8 @@
 const offRules = {
   'jsdoc/require-jsdoc': 'off',
   'react/prop-types': 'off',
+  'no-unused-vars': 'off',
+  'import/no-unresolved': 'off',
 }
 
 exports.config = [
