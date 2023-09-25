@@ -1,39 +1,41 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
-    // project options
+    /* Projects */
     "incremental": true,
     "composite": true,
-    "allowJs": true,
-    "checkJs": true,
+    /* Language and Environment */
     "target": "ES2022",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    // Emit
-    "noEmit": false,
-    "noEmitOnError": true,
-    "emitDeclarationOnly": false,
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-    "stripInternal": true,
-    "removeComments": false,
-    "importsNotUsedAsValues": "remove",
-    // Modules
+    "moduleDetection": "force",
+    /* Modules */
     "module": "ESNext", // "NodeNext"
     "moduleResolution": "Bundler", // "NodeNext"
-    "moduleDetection": "force",
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
-    // Type Checking
+    /* JavaScript Support */
+    "allowJs": true,
+    "checkJs": true,
+    /* Emit */
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "sourceMap": true,
+    "outDir": "dist",
+    "removeComments": false,
+    "noEmit": false,
+    "importsNotUsedAsValues": "remove",
+    "stripInternal": true,
+    "noEmitOnError": true,
+    /* Interop Constraints */
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Type Checking */
     "strict": true,
-    "noImplicitReturns": false,
     "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": false,
     "noUnusedLocals": true,
     "noUnusedParameters": false,
-    // Advanced
-    "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
   "include": ["src", "mocks", "eslint"]

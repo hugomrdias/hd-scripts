@@ -30,7 +30,7 @@ const equivalents = [
 
 /**
  *
- * @param {string} name
+ * @param {string} name - rule name
  */
 function ruleFromStandard(name) {
   if (configStandard.rules === undefined) {
@@ -50,7 +50,7 @@ function ruleFromStandard(name) {
 
 /**
  * @template T
- * @param {Array<[string, T]>} iterable
+ * @param {Array<[string, T]>} iterable - iterable
  */
 function fromEntries(iterable) {
   // eslint-disable-next-line unicorn/no-array-reduce

@@ -1,4 +1,7 @@
+import {} from '../eslint/index'
+
 const o = ['sss', 'sss']
+
 const obj = {
   trailingComma: 'es5',
   tabWidth: 2,

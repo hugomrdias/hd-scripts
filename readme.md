@@ -13,35 +13,33 @@ pnpm install hd-scripts
 `package.json`
 
 ```json
-"main": "src/index.js",
-"types": "dist/src/index.d.ts",
-"files": [
-  "dist/src",
-  "src",
-  "index.js",
-  "cli.js"
-],
-"scripts": {
-  "lint": "eslint **/*.js && prettier --check **/*.{js,ts,yml,json} --ignore-path .gitignore && tsc"
-},
-"simple-git-hooks": {
-  "pre-commit": "npx lint-staged"
-},
-"lint-staged": {
-  "*.{js,ts,md,yml,json}": "prettier --write",
-  "*.js": "eslint --fix"
-},
-"eslintConfig": {
-  "extends": "./node_modules/hd-scripts/eslint/index.js",
-  "ignorePatterns": [
-    "node_modules",
-    "coverage",
-    "dist",
-    "docs"
-  ]
-},
-"prettier": "hd-scripts/prettier.config.js"
-
+{
+  "main": "src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": ["dist/src", "src", "index.js", "cli.js"],
+  "scripts": {
+    "lint": "eslint . && prettier --check **/*.{js,ts,yml,json} --ignore-path .gitignore && tsc"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,md,yml,json}": "prettier --write",
+    "*": "eslint --fix"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/hd-scripts/eslint/index.js",
+    "ignorePatterns": ["node_modules", "coverage", "dist", "docs"],
+    // for preact
+    "settings": {
+      "react": {
+        "pragma": "h",
+        "version": "18.0"
+      }
+    }
+  },
+  "prettier": "hd-scripts/prettier.config.js"
+}
 ```
 
 `tsconfig.json`
