@@ -1,5 +1,16 @@
 # Changelog
 
+## [9.0.0](https://github.com/hugomrdias/hd-scripts/compare/v8.1.2...v9.0.0) (2023-09-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* add support for json, yaml, html, md and more
+
+### Features
+
+* add support for json, yaml, html, md and more ([08ef023](https://github.com/hugomrdias/hd-scripts/commit/08ef023f66755a94e22ff1a944f8e107ac073aa6))
+
 ## [8.1.2](https://github.com/hugomrdias/hd-scripts/compare/v8.1.1...v8.1.2) (2023-09-13)
 
 
