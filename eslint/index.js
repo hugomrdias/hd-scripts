@@ -33,6 +33,9 @@ const config = {
     {
       files: ['*.yaml', '*.yml'],
       extends: ['plugin:yml/standard', 'plugin:yml/prettier'],
+      rules: {
+        'yml/no-empty-mapping-value': 'off',
+      },
     },
     ...markdown.config,
   ],
