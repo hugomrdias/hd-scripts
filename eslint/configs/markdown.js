@@ -1,10 +1,11 @@
 'use strict'
 
 const offRules = {
+  'unicorn/no-process-exit': 'off',
   'jsdoc/require-jsdoc': 'off',
+  'import/no-unresolved': 'off',
   'react/prop-types': 'off',
   'no-unused-vars': 'off',
-  'import/no-unresolved': 'off',
   'no-undef': 'off',
 }
 
