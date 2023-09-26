@@ -5,6 +5,7 @@ const config = {
   extends: [
     'standard',
     'plugin:import/recommended',
+    'plugin:import/typescript',
     'plugin:eslint-comments/recommended',
     'plugin:jsdoc/recommended-typescript-flavor',
     'plugin:unicorn/recommended',
@@ -44,14 +45,19 @@ const config = {
 
     // plugins
 
-    // jsdoc
-    'jsdoc/tag-lines': 'off',
+    // eslint-comments
+    'eslint-comments/disable-enable-pair': ['off'],
+
+    // jsdoc - change also in ts.js
+    'jsdoc/tag-lines': ['error', 'any', { startLines: 1 }],
     'jsdoc/check-values': 'off',
     'jsdoc/check-tag-names': 'off',
     'jsdoc/no-undefined-types': 'off',
     'jsdoc/require-returns': 'off',
     'jsdoc/require-returns-type': 'off',
     'jsdoc/require-throws': 'off',
+    'jsdoc/require-param-description': 'off',
+    'jsdoc/require-returns-description': 'off',
 
     // no-only-tests
     'no-only-tests/no-only-tests': 'error',
@@ -59,6 +65,7 @@ const config = {
     // unicorn
     'unicorn/prefer-node-protocol': 'off',
     'unicorn/prevent-abbreviations': 'off',
+    'unicorn/no-for-loop': 'off',
 
     // import
     'import/extensions': ['error', 'ignorePackages'],
@@ -70,11 +77,10 @@ const config = {
       { count: 1, considerComments: true },
     ],
     'import/no-self-import': 'error',
+    'import/namespace': ['error', { allowComputed: true }],
+    'import/no-unresolved': 'off',
   },
   settings: {
-    'import/resolver': {
-      node: { extensions: ['.js', '.mjs', '.jsx'] },
-    },
     jsdoc: {
       mode: 'typescript',
     },

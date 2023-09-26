@@ -9,21 +9,23 @@ const config = {
   },
   extends: [
     './js',
-    'plugin:import/typescript',
     'plugin:jsdoc/recommended-typescript',
     'standard-with-typescript',
   ],
   rules: {
     // import
     'import/extensions': ['error', 'never'],
-  },
-  settings: {
-    'import/resolver': {
-      node: { extensions: ['.ts', '.tsx', '.d.ts'] },
-    },
-    jsdoc: {
-      mode: 'typescript',
-    },
+
+    // jsdoc
+    'jsdoc/tag-lines': ['error', 'any', { startLines: 1 }],
+    'jsdoc/check-values': 'off',
+    'jsdoc/check-tag-names': 'off',
+    'jsdoc/no-undefined-types': 'off',
+    'jsdoc/require-returns': 'off',
+    'jsdoc/require-returns-type': 'off',
+    'jsdoc/require-throws': 'off',
+    'jsdoc/require-param-description': 'off',
+    'jsdoc/require-returns-description': 'off',
   },
 }
 
