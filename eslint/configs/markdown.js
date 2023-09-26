@@ -5,6 +5,7 @@ const offRules = {
   'react/prop-types': 'off',
   'no-unused-vars': 'off',
   'import/no-unresolved': 'off',
+  'no-undef': 'off',
 }
 
 exports.config = [

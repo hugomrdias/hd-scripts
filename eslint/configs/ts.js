@@ -26,6 +26,7 @@ const config = {
     'jsdoc/require-throws': 'off',
     'jsdoc/require-param-description': 'off',
     'jsdoc/require-returns-description': 'off',
+    'jsdoc/valid-types': 'off',
   },
 }
 
