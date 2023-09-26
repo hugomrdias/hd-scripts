@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.5](https://github.com/hugomrdias/hd-scripts/compare/v9.0.4...v9.0.5) (2023-09-26)
+
+
+### Bug Fixes
+
+* disable no process in md ([b8a148b](https://github.com/hugomrdias/hd-scripts/commit/b8a148b4f762d414c142f1e80ea4804ee491c491))
+
 ## [9.0.4](https://github.com/hugomrdias/hd-scripts/compare/v9.0.3...v9.0.4) (2023-09-26)
 
 
