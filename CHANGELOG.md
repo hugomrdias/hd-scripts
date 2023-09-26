@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.3](https://github.com/hugomrdias/hd-scripts/compare/v9.0.2...v9.0.3) (2023-09-26)
+
+
+### Bug Fixes
+
+* turn off valid-types and no-undef in md ([c8c03d6](https://github.com/hugomrdias/hd-scripts/commit/c8c03d60ab23fcae18ded8377111bdda8477b129))
+
 ## [9.0.2](https://github.com/hugomrdias/hd-scripts/compare/v9.0.1...v9.0.2) (2023-09-26)
 
 
