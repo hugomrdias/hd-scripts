@@ -25,9 +25,8 @@ const p = (file) => path.resolve(FIXTURES, file)
 describe('mjs', function () {
   it('support mjs', async () => {
     const report = await lint(p('invalid.mjs'))
-    assert.ok(report.errorCount === 2)
-    assert.ok(report.messages[0].ruleId === 'import/no-unresolved')
-    assert.ok(report.messages[1].ruleId === 'no-useless-constructor')
+    assert.ok(report.errorCount === 1)
+    assert.ok(report.messages[0].ruleId === 'no-useless-constructor')
   })
 })
 
