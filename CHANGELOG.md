@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.2](https://github.com/hugomrdias/hd-scripts/compare/v9.0.1...v9.0.2) (2023-09-26)
+
+
+### Bug Fixes
+
+* improve same rules ([74f87d4](https://github.com/hugomrdias/hd-scripts/commit/74f87d4a0c8eea282ad4a7fc1d8af0a87f8d1565))
+
 ## [9.0.1](https://github.com/hugomrdias/hd-scripts/compare/v9.0.0...v9.0.1) (2023-09-25)
 
 
