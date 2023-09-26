@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.4](https://github.com/hugomrdias/hd-scripts/compare/v9.0.3...v9.0.4) (2023-09-26)
+
+
+### Bug Fixes
+
+* disable no-empty-mapping-value ([345fd09](https://github.com/hugomrdias/hd-scripts/commit/345fd098afb9d4a3a78a1971bde1e765c15728af))
+
 ## [9.0.3](https://github.com/hugomrdias/hd-scripts/compare/v9.0.2...v9.0.3) (2023-09-26)
 
 
