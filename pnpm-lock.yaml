@@ -87,7 +87,7 @@ devDependencies:
     version: 8.44.3
   '@types/mocha':
     specifier: ^10.0.1
-    version: 10.0.1
+    version: 10.0.2
   '@types/node':
     specifier: ^20.6.5
     version: 20.6.5
@@ -244,8 +244,8 @@ packages:
       '@types/unist': 2.0.8
     dev: false
 
-  /@types/mocha@10.0.1:
-    resolution: {integrity: sha512-/fvYntiO1GeICvqbQ3doGDIP97vWmvFt83GKguJ6prmQM2iXZfFcq6YE8KteFyRtX2/h5Hf91BYvPodJKFYv5Q==}
+  /@types/mocha@10.0.2:
+    resolution: {integrity: sha512-NaHL0+0lLNhX6d9rs+NSt97WH/gIlRHmszXbQ/8/MV/eVcFNdeJ/GYhrFuUc8K7WuPhRhTSdMkCp8VMzhUq85w==}
     dev: true
 
   /@types/node@20.6.5:
