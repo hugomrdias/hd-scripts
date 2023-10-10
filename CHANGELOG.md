@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.6](https://github.com/hugomrdias/hd-scripts/compare/v9.0.5...v9.0.6) (2023-10-10)
+
+
+### Bug Fixes
+
+* remove more rules from markdown ([f6ac7d2](https://github.com/hugomrdias/hd-scripts/commit/f6ac7d2e9ff1eb5a6eef19f2f531249f526ef477))
+
 ## [9.0.5](https://github.com/hugomrdias/hd-scripts/compare/v9.0.4...v9.0.5) (2023-09-26)
 
 
