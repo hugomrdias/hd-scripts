@@ -31,6 +31,10 @@ pnpm install hd-scripts
     "extends": "./node_modules/hd-scripts/eslint/index.js",
     "ignorePatterns": ["node_modules", "coverage", "dist", "docs"],
     // for preact
+    "rules": {
+      "react/no-unknown-property": "off",
+      "react/prop-types": "off"
+    },
     "settings": {
       "react": {
         "pragma": "h",
