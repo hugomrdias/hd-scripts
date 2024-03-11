@@ -1,5 +1,17 @@
 # Changelog
 
+## [9.1.0](https://github.com/hugomrdias/hd-scripts/compare/v9.0.6...v9.1.0) (2024-03-11)
+
+
+### Features
+
+* update deps ([c64ef3f](https://github.com/hugomrdias/hd-scripts/commit/c64ef3fd96247df3ddc6116b560e867cb16c8566))
+
+
+### Bug Fixes
+
+* more preact config ([f0e164f](https://github.com/hugomrdias/hd-scripts/commit/f0e164fec02275e083b6ac6daa247451deeec2a7))
+
 ## [9.0.6](https://github.com/hugomrdias/hd-scripts/compare/v9.0.5...v9.0.6) (2023-10-10)
 
 
